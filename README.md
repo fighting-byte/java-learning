@@ -1,9 +1,28 @@
 # java-learning
 learning java !this time ,no delay!
-```java
-public class HelloWorld {
-    public static void main(String[] args){
-        System.out.println("Hello World");
-    }
-}
-```
+##第一章  Java基础初级（以复习为主）
+###1.1 Java概述
+####1.1.1java版本：
+JavaSE标准版（J2SE）
+javaEE企业版（J2EE）
+JavaME小型版（J2ME）：在安卓之后已经逐渐消失
+####1.1.2Java重要特点
+面向对象（OOP）、健壮性、跨平台、解释型语言（编译后的代码不能直接被机器执行，需要解释器（JVM）执行）
+####1.1.3转义符
+\t:tab   \n:换行    \\:\  \/:/  \":"  \':'  \r:回车：光标移动到旧的一行的开头，而后用后续进行替换
+####1.1.4注释
+//单行注释  /*多行注释*/  
+文档注释（javadoc）
+/**  
+    * @author  荆云帆   
+    * @version 1.0.1
+    */
+####1.1.5 Java代码规范
+1.对类和方法的注释要用javadoc的方式写
+2.单行注释和多行注释是给代码的维护者看的
+3.尽可能使用tab向右移动，使用shift+tab向左移
+4.运算符和等号左右各加一个空格
+5.源文件使用utf-8进行编码
+6.行宽不得超过80个字符
+7.代码编写大括号使用次行风格或者行尾风格
+
